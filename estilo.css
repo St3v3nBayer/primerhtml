@@ -6,3 +6,55 @@ h1{
     color: green;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Clase en css*/
+.negrilla{
+    font-weight: bold;
+}
+
+#cabecera{
+    background-color: red;
+    width: 100vw; 
+    height: 35vh;
+    overflow: hidden;
+}
+
+#cuerpo{
+
+}
+body{
+    margin: 0px;
+   
+}
+
+#conTexto{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#conImagen{
+    background-color:green;
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding-left: 5%;
+}
+
+#tituloCabecera{
+    font-size: 4rem;
+}
+#subtitulo{
+    font-size: 2.5rem;
+    /*
+    em
+    pt
+    */
+}
+table, tr, td, th {
+    border: 1px solid black;
+}
