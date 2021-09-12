@@ -8,6 +8,8 @@ body{
 
 h1{
     color: white;
+    font-size: 3.5rem;
+    
 }
 #corazonGay{
     width: 5%;
@@ -16,31 +18,43 @@ h1{
 }
 #container1{
     width: 100%;
+    margin:auto;
     background-color: rgb(49, 49, 49);
+    overflow: hidden;
     
 }
 #container2{    
     width: 40%;
+    height: 100%;
     float: left;
     text-align: center;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+ 
 
 }
 #container3{
+    
     width: 60%;
-    text-align: center;
-    font-size: 25px;
+    font-size: 2rem;
     color: white;
-    width: 50%;
-    float: left;
+    float: right;
+}
+#container4{
+    width: 100%;
 }
 .main{
-    width: 80%;
+    width: 100%;
     margin:auto;
 }
 
 video{
     width: 100%;
 }
+#video{
+    font-size: 3rem;
+}
+
+#image1{
+  
+
+    width: 90%;
+  }
