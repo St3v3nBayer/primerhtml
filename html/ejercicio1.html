@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estiloEjercicio1.css">
+</head>
+
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/95/Escudo_f.png">
+    </header>
+    <br>
+    <main>
+        <!----------contenedor padre-------->
+        <div id="contPadre">
+            <!----------contenedor hijo 1------->
+            <div id="formulario">
+                <form>
+                    <!----------Nombre------->
+                    <label for="nombre">Nombre</label>
+                    <br>
+                    <input required size="50" type="text" id="nombre" name="nombre" />
+                    <br>
+                    <!----------Apellido------->
+                    <label for="apellido">Apellido</label>
+                    <br>
+                    <input required size="50" type="text" id="apellido" name="apellido" />
+                    <br>
+                    <!----------Email------->
+                    <label for="email">Email</label>
+                    <br>
+                    <input required size="50" type="email" id="email" name="email" />
+                    <br>
+                    <!----------Telefono------->
+                    <label for="telefono">Telefono</label>
+                    <br>
+                    <input required size="50" type="tel" id="telefono" name="telefono" />
+                    <br>
+                    <!----------Universidad------->
+                    <label for="universidad">Universidad</label>
+                    <br>
+                    <input required size="50" type="text" id="universidad" name="universidad" />
+                    <br>
+                    <br>
+                    <!----------Select------->
+                    <label for="ciudades">Ciudades</label>
+                    <select id="ciudades" name="ciudades">
+                        <option>Bogotá</option>
+                        <option>Medellin</option>
+                        <option>Cali</option>
+                        <option>Pereira</option>
+                    </select>
+                    <br>
+                    <br>
+                    <!-----------Extrajenro--------->
+                    <input type="checkbox" id="c1" name="c1" />
+                    <label for="c1">Extranjero</label>
+                    <br>
+                    <br>
+                    <!----<input type="submit" value="Registro"/>--->
+                    <div id="btnRegistro">
+                        Registrar
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-----------Contenedor tabla--------->
+            <div id="contTabla">
+                <!-----------tabla--------->
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Email</th>
+                        <th>Telefono</th>
+                        <th>Universidad</th>
+                        <th>Ciudad</th>
+                    </tr>
+                    <tr>
+                        <td>Steven</td>
+                        <td>Bayer</td>
+                        <td>bayer@mail.com</td>
+                        <td>555-121235456</td>
+                        <td>MinTic2022</td>
+                        <td>Cali</td>
+                    </tr>
+                    <tr>
+                        <td>Johan</td>
+                        <td>Lamprea</td>
+                        <td>lamprea@mail.com</td>
+                        <td>602 3222189561</td>
+                        <td>Sena</td>
+                        <td>Cali</td>
+                    </tr>
+                </table>
+
+
+            </div>
+
+
+
+
+        </div>
+    </main>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/DkOurYZBjUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+
+</html>
